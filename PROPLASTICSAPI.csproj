@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\appsettings.Development.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\appsettings.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\PROPLASTICSAPI.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\PROPLASTICSAPI.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\PROPLASTICSAPI.runtimeconfig.json" />
+    <Content Include="bin\Release\netcoreapp3.1\appsettings.Development.json" />
+    <Content Include="bin\Release\netcoreapp3.1\appsettings.json" />
+    <Content Include="bin\Release\netcoreapp3.1\PROPLASTICSAPI.deps.json" />
+    <Content Include="bin\Release\netcoreapp3.1\PROPLASTICSAPI.runtimeconfig.dev.json" />
+    <Content Include="bin\Release\netcoreapp3.1\PROPLASTICSAPI.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\PROPLASTICSAPI.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\PROPLASTICSAPI.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\PROPLASTICSAPI.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\SLY.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\SLY.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Include="bin\Release\netcoreapp3.1\Microsoft.OpenApi.dll" />
+    <None Include="bin\Release\netcoreapp3.1\Newtonsoft.Json.dll" />
+    <None Include="bin\Release\netcoreapp3.1\PROPLASTICSAPI.dll" />
+    <None Include="bin\Release\netcoreapp3.1\PROPLASTICSAPI.exe" />
+    <None Include="bin\Release\netcoreapp3.1\PROPLASTICSAPI.pdb" />
+    <None Include="bin\Release\netcoreapp3.1\SLY.dll" />
+    <None Include="bin\Release\netcoreapp3.1\SLY.pdb" />
+    <None Include="bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SLY">
+      <HintPath>..\..\..\..\..\..\Desktop\DBS-WORK\BETA BRICKS\BETA API\Slys\SLY.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+</Project>
